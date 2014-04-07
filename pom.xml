@@ -24,6 +24,13 @@
 		</dependency>
 	</dependencies>
 
+	<scm>
+		<connection>scm:git:git://github.com/fiji/Differentials</connection>
+		<developerConnection>scm:git:git@github.com:fiji/Differentials</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/fiji/Differentials</url>
+	</scm>
+
 	<repositories>
 		<!-- NB: for project parent, in case of partial checkout -->
 		<repository>
