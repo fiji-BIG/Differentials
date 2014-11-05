@@ -41,12 +41,33 @@
  * publish results that are based on it.
  ********************************************************************/
 
-import ij.*;
-import ij.gui.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.ImageStack;
+import ij.Undo;
+import ij.WindowManager;
+import ij.gui.GUI;
+import ij.gui.ImageWindow;
+import ij.gui.ProgressBar;
 import ij.plugin.PlugIn;
-import ij.process.*;
-import java.awt.*;
-import java.awt.event.*;
+import ij.process.ImageConverter;
+import ij.process.ImageProcessor;
+import ij.process.StackConverter;
+
+import java.awt.Button;
+import java.awt.Checkbox;
+import java.awt.CheckboxGroup;
+import java.awt.Dialog;
+import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.GridLayout;
+import java.awt.Insets;
+import java.awt.Label;
+import java.awt.Panel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 
 /********************************************************************/
 /* Differentials_													*/
